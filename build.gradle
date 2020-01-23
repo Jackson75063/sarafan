@@ -36,9 +36,6 @@ repositories {
 	mavenCentral()
 }
 
-node{
-	download: true
-}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
@@ -53,4 +50,3 @@ dependencies {
 	compile('org.projectlombok:lombok')
 	compile 'io.sentry:sentry-spring:1.7.16'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
-}
